@@ -7,3 +7,6 @@ gradlew.bat
 # Idea
 .idea/
 *.iml
+
+# Build
+build/
