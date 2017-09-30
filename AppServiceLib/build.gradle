@@ -1,6 +1,10 @@
+plugins {
+	id 'org.springframework.boot' version '1.5.7.RELEASE'
+}
+
 apply plugin: 'org.springframework.boot'
 
-dependencies {
+// dependencies {
 // 	compile('org.springframework.boot:spring-boot-starter-log4j2')
 // 	compile('org.springframework.boot:spring-boot-starter-jersey')
 // 	compile('org.springframework.boot:spring-boot-starter-data-mongodb')
@@ -11,4 +15,4 @@ dependencies {
 // 	testCompile('org.springframework.boot:spring-boot-starter-test')
 // 	testCompile('org.hamcrest:hamcrest-core:1.3')
 // 	testCompile('io.rest-assured:rest-assured:3.0.2')
-}
+// }

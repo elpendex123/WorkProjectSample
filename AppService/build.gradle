@@ -1,8 +1,9 @@
 plugins {
-	id 'org.springframework.boot' version '1.5.3.RELEASE'
+	id 'org.springframework.boot' version '1.5.7.RELEASE'
 }
 
 apply plugin: 'org.springframework.boot'
+
 
 // jar {
 // 	manifest {
