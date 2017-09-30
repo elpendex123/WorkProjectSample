@@ -1,0 +1,45 @@
+plugins {
+	id 'org.springframework.boot' version '1.5.3.RELEASE'
+}
+
+apply plugin: 'org.springframework.boot'
+
+// jar {
+// 	manifest {
+// 		attributes("Commons-Version": "1.0")
+// 		attributes("Implementation-Title": "The Project Name")
+// 		from baseManifest
+// 	}
+// }
+
+// configurations { }
+
+// task springBootJar(type: bootRepackage, dependsOn: jar) { executable = true }
+
+// springBoot { mainClass = 'com.coello.project.AppServiceApplication' }
+
+// bootRepackage { mainClass = 'com.coello.project.AppServiceApplication' }
+
+
+// bootRun {
+// 	args = ["", "", ""]
+// 	jvmArgs = ["", "", ""]
+// 	environment "", ""
+// }
+
+// publish { dependsOn springBootJar }
+
+// dependencies {
+// 	compile project(':AppServiceLib')
+
+// 	compile('org.springframework.boot:spring-boot-starter-log4j2')
+// 	compile('org.springframework.boot:spring-boot-starter-jersey')
+// 	compile('org.springframework.boot:spring-boot-starter-data-mongodb')
+
+// 	compile 'org.jongo:jongo:1.3.0'
+// 	compile 'org.mongodb:mongo-java-driver:2.14.0'
+
+// 	testCompile('org.springframework.boot:spring-boot-starter-test')
+// 	testCompile('org.hamcrest:hamcrest-core:1.3')
+// 	testCompile('io.rest-assured:rest-assured:3.0.2')
+// }

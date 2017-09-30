@@ -1,0 +1,21 @@
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    apply plugin: 'maven'
+
+	sourceCompatibility = 1.8
+
+/*
+    tasks.withType(JavaCompile) {
+        options.compilerArgs << "-Xlint"
+    }
+*/
+
+/*
+	repositories {
+		mavenCentral()
+		jcenter()
+	}
+*/
+
+}
