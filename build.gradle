@@ -5,17 +5,30 @@ subprojects {
 
 	sourceCompatibility = 1.8
 
-/*
     tasks.withType(JavaCompile) {
         options.compilerArgs << "-Xlint"
     }
-*/
 
-/*
-	repositories {
-		mavenCentral()
-		jcenter()
-	}
-*/
+    repositories {
+        jcenter()
+        maven { url "http://repo.spring.io/snapshot" }
+        maven { url "http://repo.spring.io/milestone" }
+    }
 
+    dependencies {
+        compile("org.springframework.boot:spring-boot-starter-web")
+
+//        testCompile("org.springframework.boot:spring-boot-starter-test")
+//        compile("org.springframework.boot:spring-boot-starter-web:1.5.7.RELEASE")
+//        compile group: 'org.springframework.boot', name: 'spring-boot-autoconfigure', version: '1.0.0.RELEASE'
+//        compile group: 'org.springframework.boot', name: 'spring-boot', version: '1.2.3.RELEASE'
+//        compile group: 'org.springframework.boot', name: 'spring-boot-autoconfigure', version: '1.2.3.RELEASE'
+//
+//        compile('org.springframework.boot:spring-boot-starter-log4j2')
+//        compile('org.springframework.boot:spring-boot-starter-jersey')
+//        compile('org.springframework.boot:spring-boot-starter-data-mongodb')
+//
+//        compile 'org.jongo:jongo:1.3.0'
+//        compile 'org.mongodb:mongo-java-driver:2.14.0'
+    }
 }
